@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 0
   BorderIcons = [biSystemMenu]
   Caption = 'Big Worm Game'
-  ClientHeight = 289
-  ClientWidth = 453
+  ClientHeight = 270
+  ClientWidth = 270
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -20,8 +20,8 @@ object Form1: TForm1
   object backgroud: TImage
     Left = 0
     Top = 0
-    Width = 453
-    Height = 289
+    Width = 270
+    Height = 270
     Align = alClient
     Enabled = False
     Transparent = True
@@ -29,6 +29,13 @@ object Form1: TForm1
     ExplicitTop = 56
     ExplicitWidth = 105
     ExplicitHeight = 105
+  end
+  object Label1: TLabel
+    Left = 207
+    Top = 249
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
   end
   object Timer1: TTimer
     Interval = 500
